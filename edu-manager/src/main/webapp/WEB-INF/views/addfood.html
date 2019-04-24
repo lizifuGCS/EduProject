@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>添加餐饮页面-后台管理系统</title>
+<link href="css/layout.css" rel="stylesheet" type="text/css" />
+<link href="css/add.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div class="place"> <span>位置：</span>
+  <ul class="placeul">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">添加餐饮</a></li>
+  </ul>
+</div>
+<div class="formbody">
+  <div class="usual">
+    <div class="tabson">
+      <ul class="forminfo">
+      <li>
+          <label>美食缩略图<b>*</b></label>
+          <input name="" type="file"  multiple="multiple" />
+        </li>
+        <li>
+          <label>美食名称<b>*</b></label>
+          <input name="" type="text" class="dfinput" value="请填写美食名称"   required="required" style="width:500px;"/>
+        </li>
+        <li>
+          <label>美食类别<b>*</b></label>
+          <div class="vocation">
+           <select class="select3">
+            <option>-选择美食类别-</option>
+            <option>自助餐</option>
+            <option>火锅</option>
+            <option>烤肉</option>
+            <option>西餐</option>
+            <option>川菜</option>
+            <option>日本料理</option>
+            <option>韩国料理</option>
+          </select>
+          <select class="select3">
+            <option>-选择子类别-</option>
+            <option>法式西餐</option>
+            <option>英式西餐</option>
+            <option>意式大餐</option>
+            <option>美式菜肴</option>
+            <option>俄式大餐</option>
+          </select>
+          </div>
+        </li>
+        <li>
+          <label>门店价<b>*</b></label>
+          <input name="" type="number"  class="dfinput"  required="required" style="width:100px;"/>
+          元 </li>
+        <li>
+          <label>团购价<b>*</b></label>
+          <input name="" type="number" class="dfinput"  required="required" style="width:100px;"/>
+          元 </li>
+        <li>
+          <label>发布日期<b>*</b></label>
+          <input name="" type="date" class="dfinput"  required="required" style="width:150px;"/>
+        </li>
+        <li>
+          <label>是否审核<b>*</b></label>
+          <div class="vocation">
+            <select class="select3">
+              <option>已审核</option>
+              <option>未审核</option>
+            </select>
+          </div>
+        </li>
+        <li>
+          <label>美食描述<b>*</b></label>
+          <textarea name="content" ></textarea>
+        </li>
+        <li>  <label>&nbsp;</label>
+          <input name="" type="submit" class="btn" value="马上发布"/>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>

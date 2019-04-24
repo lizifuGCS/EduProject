@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>商品列表页面</title>
+<link href="css/layout.css" rel="stylesheet" type="text/css" />
+<link href="css/list.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.x.js"></script>
+<script type="text/javascript" src="js/tableOperator_food.js"></script>
+</head>
+<body>
+<div class="place"> <span>位置：</span>
+  <ul class="placeul">
+    <li><a href="main.html">首页</a></li>
+    <li><a href="#">美食列表</a></li>
+  </ul>
+</div>
+<div class="rightinfo">
+  <div class="tools">
+    <ul class="toolbar">
+      <li class="click"><span><img src="images/t01.png" /></span>添加</li>
+      <li class="click"><span><img src="images/t02.png" /></span>修改</li>
+      <li><span><img src="images/t03.png" /></span>删除</li>
+      <li><span><img src="images/t04.png" /></span>统计</li>
+      <li><span><img src="images/t05.png" /></span>设置</li>
+    </ul>
+    <iframe src="food_search.html" scrolling="no" frameborder="0" width="400" height="42"></iframe>
+  </div>
+  <table class="imgtable">
+    <thead>
+      <tr>
+        <th ><input name="" type="checkbox" value="" checked="checked"/></th>
+        <th width="100px;">缩略图</th>
+        <th>标题</th>
+        <th>门市价</th>
+        <th>团购价</th>
+        <th>发布类别</th>
+        <th>是否审核</th>
+        <th>发布日期</th>
+        <th >操作</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td ><input name="" type="checkbox" value="" /></td>
+        <td class="imgtd"><img src="images/img11.png" /></td>
+        <td><a href="#">吉祥大虾</a>
+          <p class="intro_width">吉祥大虾，免费享！价值183元的吉祥大虾2-3人餐1个免费赠送。。邀请1个新用户参加或绑定新浪微博多1个抽奖号码，中奖概率翻倍！</p></td>
+        <td><span class="orange14">¥459</span>元 </td>
+        <td><span class="orange14">¥359</span>元 </td>
+        <td>烤肉</td>
+        <td>已审核</td>
+        <td>2014-05-04</td>
+        <td ><a href="#" class="tablelink">查看</a> <a href="#" class="tablelink"> 删除</a></td>
+      </tr>
+      <tr  class="odd">
+        <td ><input name="" type="checkbox" value="" /></td>
+        <td class="imgtd"><img src="images/img12.png" /></td>
+        <td><a href="#">魔法寿司</a>
+          <p class="intro_width">仅售27.8元！价值34元的精品双人B套餐。</p></td>
+        <td><span class="orange14">¥34</span>元 </td>
+        <td><span class="orange14">¥27.8</span>元 </td>
+        <td>韩国料理</td>
+        <td><i>未审核</i></td>
+        <td>2014-05-04</td>
+        <td ><a href="#" class="tablelink">查看</a> <a href="#" class="tablelink">删除</a></td>
+      </tr>
+      <tr>
+        <td ><input name="" type="checkbox" value="" /></td>
+        <td class="imgtd"><img src="images/img13.png" /></td>
+        <td><a href="#">好牛烧肉专门店</a>
+          <p class="intro_width">好牛烧肉专门店，免费享！价值300元的代金券1个免费赠送。。邀请1个新用户参加或绑定新浪微博多1个抽奖号码，中奖概率翻倍！</p></td>
+        <td><span class="orange14">¥359</span>元 </td>
+        <td><span class="orange14">¥259</span>元 </td>
+        <td>日本料理</td>
+        <td>已审核</td>
+        <td>2014-05-04</td>
+        <td ><a href="#" class="tablelink">查看</a> <a href="#" class="tablelink">删除</a></td>
+      </tr>
+      <tr  class="odd">
+        <td ><input name="" type="checkbox" value="" /></td>
+        <td class="imgtd"><img src="images/img14.png" /></td>
+        <td><a href="#">【黄村】渝州川菜 </a>
+          <p class="intro_width">仅售98元！最高价值135元的2-3人餐，提供免费WiFi。</p></td>
+        <td><span class="orange14">¥135</span>元 </td>
+        <td><span class="orange14">¥98</span>元 </td>
+        <td>中餐</td>
+        <td>已审核</td>
+        <td>2014-05-04</td>
+        <td ><a href="#" class="tablelink">查看</a> <a href="#" class="tablelink">删除</a></td>
+      </tr>
+      <tr>
+        <td ><input name="" type="checkbox" value="" /></td>
+        <td class="imgtd"><img src="images/img15.png" /></td>
+        <td><a href="#">【古城/八角】糖果盒自助烧烤 </a>
+          <p class="intro_width">仅售49元！价值59元的自助烧烤 午晚餐通用，提供免费WiFi。-儿童就餐可免费进入游乐场。</p></td>
+        <td><span class="orange14">¥59</span>元 </td>
+        <td><span class="orange14">¥49</span>元 </td>
+        <td>自助餐</td>
+        <td>已审核</td>
+        <td>2014-05-04</td>
+        <td ><a href="#" class="tablelink">查看</a> <a href="#" class="tablelink">删除</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="pagin">
+    <div class="message">共<i class="blue">1256</i>条记录，当前显示第&nbsp;<i class="blue">2&nbsp;</i>页</div>
+    <ul class="paginList">
+      <li class="paginItem"><a href="javascript:;"><span class="pagepre"></span></a></li>
+      <li class="paginItem"><a href="javascript:;">1</a></li>
+      <li class="paginItem current"><a href="javascript:;">2</a></li>
+      <li class="paginItem"><a href="javascript:;">3</a></li>
+      <li class="paginItem"><a href="javascript:;">4</a></li>
+      <li class="paginItem"><a href="javascript:;">5</a></li>
+      <li class="paginItem more"><a href="javascript:;">...</a></li>
+      <li class="paginItem"><a href="javascript:;">10</a></li>
+      <li class="paginItem"><a href="javascript:;"><span class="pagenxt"></span></a></li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
